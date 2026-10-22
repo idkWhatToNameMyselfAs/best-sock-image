@@ -1,0 +1,12 @@
+rtl/img_proc_regs_pkg.sv
+rtl/img_proc_pkg.sv
+rtl/axis_skid.sv
+rtl/color_stage.sv
+rtl/line_window.sv
+rtl/kernel3x3.sv
+rtl/isqrt.sv
+rtl/combine.sv
+rtl/out_stage.sv
+rtl/frame_ctrl.sv
+rtl/reg_block.sv
+rtl/img_proc_top.sv

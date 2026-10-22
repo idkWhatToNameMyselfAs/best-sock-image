@@ -1,0 +1,33 @@
+name: Bug report
+description: Report an issue in RTL, model, or verification scaffold
+title: "[BUG] "
+labels: [bug]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is failing?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include command, simulator, and image/preset details.
+      placeholder: |
+        1. python run.py ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and artifacts
+      description: Paste key log lines and attach wave/results files if available.

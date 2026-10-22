@@ -1,5 +1,7 @@
-pdks/*
-sim_build/*
-mapped/*
+sim_build/
+out/
 *.vcd
-*.log
+*.fst
+results.xml
+__pycache__/
+.pytest_cache/
